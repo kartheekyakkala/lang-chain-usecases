@@ -1,5 +1,7 @@
 # lang-chain-usecases
 
+This project is actually a use case of LLM finetuning using Langchain module, here I have used "Bhagavad Gita As It Is" to finetune the model. This is only for research purpose.
+
 
 This project uses the following resources:
 
