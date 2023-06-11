@@ -21,7 +21,7 @@ if os.getenv("OPENAI_API_KEY") is None:
     #please enter your openai api key here
     os.environ["OPENAI_API_KEY"] = "insert your api key here"
 from langchain.document_loaders import UnstructuredFileLoader 
-loader = UnstructuredFileLoader('./YourTextDocument.txt')
+loader = UnstructuredFileLoader(f'./{uploaded_file.name}')
 from langchain.indexes import VectorstoreIndexCreator
 index = VectorstoreIndexCreator().from_loaders([loader])
 def get_response(user_input):
