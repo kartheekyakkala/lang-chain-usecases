@@ -4,4 +4,4 @@ chromadb
 unstructured
 python-dotenv
 tiktoken
-streamlit
+pdf2image
