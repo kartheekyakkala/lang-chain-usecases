@@ -1,6 +1,20 @@
 import os
 import os
 from dotenv import load_dotenv
+import streamlit as st
+import os
+import streamlit as st
+from save_file import save_uploaded_file
+
+uploaded_file = st.file_uploader("Upload a document", type=["txt", "pdf"])
+
+if uploaded_file is not None:
+    # Perform any processing or analysis on the uploaded file here
+    st.write(f"File uploaded: {uploaded_file.name}")
+    save_uploaded_file(uploaded_file)
+else:
+    st.write("No file uploaded.")
+
 
 load_dotenv()
 if os.getenv("OPENAI_API_KEY") is None:
