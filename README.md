@@ -1,7 +1,7 @@
 # lang-chain-usecase
 
 
-This project is actually a use case of LLM finetuning using Langchain module, here I have used "Bhagavad Gita As It Is" to finetune the model. This is only for research purpose.
+This project is actually a document-based chatbot that can answer questions and provide insights based on the content of the Bhagavad Gita, here I have used **"Bhagavad Gita As It Is" ** to finetune the model. This is only for research purpose.
 
 
 This project uses the following resources:
